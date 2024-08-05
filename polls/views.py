@@ -8,4 +8,4 @@ def index(request):
     return render(request, 'polls/index.html')
 
 def about(request):
-    return HttpResponse("the About")
+    return render(request, 'polls/about.html')
