@@ -17,4 +17,4 @@ def index(request):
     return render(request, 'polls/index.html', context)
 
 def about(request):
-    return render(request, 'polls/about.html')
+    return render(request, 'polls/about.html', {'title': 'About'})
